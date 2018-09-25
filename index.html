@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Quel livre de cuisine êtes vous</title>
+
+  <!-- CSS  -->
+  
+  <!-- Materializecss compiled and minified CSS -->
+   <link rel="stylesheet" href="css/materialize.css">
+<!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import Materialize-Stepper CSS -->
+  <link rel="stylesheet" href="steper/materialize-stepper.min.css">
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <!-- Materializecss compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+  <!-- jQueryValidation Plugin (optional) -->
+  <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js"></script>
+  <!--Import Materialize-Stepper JavaScript -->
+  <script src="steper/materialize-stepper.min.js"></script>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Bungee+Shade|Monoton" rel="stylesheet">
+</head>
+<body>
+
+
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="http://www.institutfrancais.es/madrid/fr/institut-francais/" class="brand-logo"><img width="50%" src="logo.png"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="http://www.institutfrancais.es/madrid/fr/institut-francais/">Volver a la pagina del institut français</a></li>
+      </ul>
+
+      
+    </div>
+  </nav>
+  <div class="background white-text section no-pad-bot" id="index-banner">
+
+    <div class="container center">
+      <br><br>
+        <!-- ¿Qué jugador del equipo de Francia eres? -->
+       <h1>Quel livre de cuisine êtes vous ?</h1>
+      <div class="row center">
+        
+        <div class="text container center">
+
+          <H3  class="">Un petit test de vos papilles</H3>
+        </div>
+  
+
+        
+
+    </div>
+  </div>
+
+        </div>
+      </div>
+      
+      <br><br>
+
+    </div>
+  </div>
+
+
+  <div class="section grey lighten-5">
+   <div class="container">
+    <div class="row">
+     <div class="col l6 m10 s12 offset-l3 offset-m1">
+      <h3 class="header center typed col s12 light blue-text"></h3>
+      <div class="card">
+       <div class="card-content">
+
+        <ul data-method="GET" class="stepper linear">
+         <li class="step active">
+          <div class="step-title waves-effect waves-dark">Quel est votre prénom ?</div>
+          <div class="step-content">
+           <div class="row">
+            <div class="input-field col s6">
+             <input id="nombre" name="password" type="text" class="validate" required>
+         <label for="password">Miam</label>
+           </div>
+         </div>
+         <div class="step-actions">
+          <button class="blue waves-effect waves-dark btn next-step" data-feedback="anyThing">Suivant</button>
+        </div>
+      </div>
+    </li>
+<!--     <li class="step">
+      <div class="step-title waves-effect waves-dark">Lorem ipsum</div>
+      <div class="step-content">
+       <div class="row">
+        <div class="input-field col s6">
+         <input id="password" name="password" type="password" class="validate" required>
+         <label for="password">Lorem ipsum</label>
+       </div>
+     </div>
+     <div class="step-actions">
+      <button class="blue waves-effect waves-dark btn next-step">CONTINUE</button>
+      <button class="blue waves-effect waves-dark btn-flat previous-step">BACK</button>
+    </div>
+  </div>
+</li> -->
+<li class="step">
+  <div class="step-title waves-effect waves-dark">En cuisine, vous ne quittez jamais…</div>
+  <div class="step-content">
+    <div class="row center">
+      
+      <div class="col s6 center">
+        votre saladier et une fourchette ! Indissociables, ils vous aident dans toutes vos préparations, qu’elles soient salées ou sucrées.
+        <div class="switch">
+      <label>
+        Off
+        <input  id="qui1" type="checkbox">
+        <span class="lever"></span>
+        On
+      </label>
+    </div>
+
+      </div>
+      <div class="col s6 center">
+        votre robot hight-tech. Il râpe, tranche, pétrit, émulsionne, le tout en prenant le minimum d’espace.
+        <div class="switch">
+      <label>
+        Off
+        <input id="qui2" type="checkbox">
+        <span class="lever"></span>
+        On
+      </label>
+    </div>
+      </div>
+    </div>
+    <div class="step-actions">
+      <button  class="blue waves-effect waves-dark btn next-step" data-feedback="anyThing">Miam</button>
+      <button class="blue waves-effect waves-dark btn-flat previous-step">retour</button>
+    </div>
+  </div>
+</li>
+<li class="step">
+  <div class="step-title waves-effect waves-dark">Quel est votre dessert fétiche ?</div>
+  <div class="step-content">
+    <div class="row center">
+      
+      <div class="col s6 center">
+      La tarte aux pommes, un must indémodable et généreux.
+          <div class="switch">
+      <label>
+        Off
+        <input id="qui3" type="checkbox">
+        <span class="lever"></span>
+        On
+      </label>
+    </div>
+      </div>
+
+      <div class="col s6 center">
+        La religieuse, délicate et girly. 
+          <div class="switch">
+      <label>
+        Off
+        <input id="qui4" type="checkbox">
+        <span class="lever"></span>
+        On
+      </label>
+    </div>
+      </div>
+    </div>
+    <div class="step-actions">
+      <button  class="blue waves-effect waves-dark btn next-step" data-feedback="anyThing">Miam</button>
+      <button class="blue waves-effect waves-dark btn-flat previous-step">Retour</button>
+    </div>
+  </div>
+</li>
+<li class="step">
+  <div class="step-title waves-effect waves-dark">En cuisine, vous êtes plutôt du genre ?</div>
+  <div class="step-content">
+   <div class="row">
+    
+    <div class="col s6 center">
+     Tranquille. Vous ne cuisinez que des recettes déjà testées.
+
+      <div class="switch">
+      <label>
+        Off
+        <input id="qui5" type="checkbox">
+        <span class="lever"></span>
+        On
+      </label>
+    </div></div>
+    <div class="col s6 center"> 
+      A faire la vaisselle. Vous passez plus de temps à ranger qu’à cuisiner.
+
+      <div class="switch">
+      <label>
+        Off
+        <input id="qui6" type="checkbox">
+        <span class="lever"></span>
+        On
+      </label>
+    </div>
+  </div> 
+  </div>
+  <div class="step-actions">
+    <button  class="blue waves-effect waves-dark btn next-step" data-feedback="anyThing">Miam</button>
+  </div>
+</div>
+</li>
+
+<!-- <li class="step">
+  <div class="step-title waves-effect waves-dark">Lorem ipsum</div>
+  <div class="step-content">
+   <p>
+    <label>
+      <input class="with-gap" name="group3" type="radio" checked />
+      <span>Red</span>
+    </label>
+  </p>
+  <div class="step-actions">
+    <button  class="blue waves-effect waves-dark btn next-step" data-feedback="anyThing">Lorem ipsum</button>
+  </div>
+</div>
+</li> -->
+
+
+
+
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="row center">
+  <a onclick="total()" href="#modal1" class="blue waves-effect waves-light btn-large">Descubrir</a>
+</div>
+
+<!-- <div class="row center">
+  <a href="#modal2" class="blue waves-effect waves-light btn-large">Generate</a>
+</div> -->
+
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <a id="logo-container" href="http://www.institutfrancais.es/madrid/fr/institut-francais/" class="brand-logo"><img width="30%" src="logo.png"></a>
+    
+     <div class="row">
+      
+      <div class="col s6"><img id="myImg" src=""></div>
+      <div class="col s6"><h4 id="input1">Modal Header</h4>
+    <p id="input2">A bunch of text</p></div>
+    <div class="container">
+      <a id="target" class="blue waves-effect waves-light btn-large" href="http://www.institutfrancais.es/madrid/fr/cours-de-francais/adultes/">Descubrir</a></div>
+    </div>
+    
+      <!-- <iframe height="800px" width="100%" src="http://www.institutfrancais.es/madrid/fr/cours-de-francais/adultes/"></iframe> -->
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">ok</a>
+    </div>
+  </div>
+
+  
+
+  <footer class="page-footer blue">
+    
+
+    <div class="footer-copyright">
+      <div class="container">
+        Made by <a class="white-text text-lighten-3" href="#">Théophile Vast 2018</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script type="text/javascript" src="js/typed/lib/typed.min.js"></script>
+  <script type="text/javascript">
+    var typed = new Typed('.typed', {
+      strings: ["Respondez aux questions et déouvrez quel cuisinier êtes vous !"],
+      typeSpeed: 40
+    });
+  </script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+  </script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.1/jquery.validate.js"></script>
+  <script type="text/javascript" src="https://rawgit.com/Kinark/Materialize-stepper/master/materialize-stepper.min.js"></script>
+  <script type="text/javascript">
+    function anyThing() {
+      setTimeout(function(){ $('.stepper').nextStep(); }, 1500);
+    }
+
+    $(function(){
+     $('.stepper').activateStepper();
+   });
+ </script>
+ <script type="text/javascript">
+  $(document).ready(function(){
+    $('.modal').modal();
+  });
+</script>
+
+<script type="text/javascript" src="js/demoStep.js"></script>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58cfe48a2de20889"></script>
+
+</body>
+</html>
